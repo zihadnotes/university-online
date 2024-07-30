@@ -1,0 +1,143 @@
+:root{
+    --txt-black: #2C2D3F;
+    --txt-white: #FFFFFF;
+    --eng-font: "Lato", sans-serif;
+    --bn-font: "Hind Siliguri", sans-serif;
+    --top-header-bg: #0C8241;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul li{
+    list-style: none;
+}
+
+/* Global Classes */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+
+
+/* Top Header Area */
+.top-header-wrapper{
+    font-family: var(--eng-font);
+    background: var(--top-header-bg);
+    padding: 6px 0;
+}
+.top-header-wrapper,
+.top-header-left a,
+.top-header-right a{
+    color: var(--txt-white);
+    font-weight: bold;
+}
+.top-header-left i,
+.top-header-right i{
+    padding-right: 4px;
+}
+
+
+/* Header Area */
+.header-wrapper{
+    padding: 8px 0;
+    font-family: var(--bn-font);
+}
+.logo-area a,
+.logo-area a img{
+    display: block;
+}
+.header-btn-area{
+    gap: 14px;
+}
+
+.customer-support-btn,
+.customer-get-connection-btn{
+    padding: 8px 20px;
+    background: var(--top-header-bg);
+    color: var(--txt-white);
+    font-weight: bold;
+    border-radius: 4px;
+}
+.customer-support-btn i,
+.customer-get-connection-btn i{
+    padding-right: 6px;
+}
+.user-login-btn{
+    font-size: 26px;
+    padding: 10px;
+    color: var(--txt-black);
+    transition: .3s;
+}
+.user-login-btn:hover{
+    color: #0C8241;
+}
+
+
+/* Nav Area */
+nav{
+    border-top: 1px solid #eee;
+    font-family: var(--bn-font);
+}
+.main-menu{
+    gap: 20px;
+}
+.main-menu > li > a{
+    color: var(--txt-black);
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 4px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Page Design */
+.contact-area{
+    padding: 10px;
+    background-color: #eee;
+}
+.address-area{
+    width: 40%;
+}
+.contact-form{
+    width: 60%;
+}
