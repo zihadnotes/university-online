@@ -37,6 +37,12 @@ ul li{
 .align-items-center{
     align-items: center;
 }
+.section-heading{
+    font-family: var(--bn-font);
+    font-size: 24px;
+    color: var(--txt-black);
+    padding: 20px 0;
+}
 
 
 
@@ -115,30 +121,7 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact Page Design */
-.section-heading{
-    font-family: var(--bn-font);
-    font-size: 24px;
-    color: var(--txt-black);
-    padding: 20px 0;
-}
-
 .contact-area{
     padding: 10px;
     background-color: #eee;
@@ -277,4 +260,57 @@ nav{
     font-weight: bold;
     padding: 8px 0;
     cursor: pointer;
+}
+
+
+
+/* Packedge Page Design */
+
+.our-packedge-card-wrapper{
+    gap: 20px;
+}
+.packedge-card{
+    width: calc(20% - 16px);
+    padding: 20px 10px;
+    background-color: #eee;
+    font-family: var(--bn-font);
+    text-align: center;
+    transition: .3s;
+}
+.packedge-card:hover{
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.packedge-card p:first-child{
+    font-size: 24px;
+    background-color: #0C8241;
+    color: var(--txt-white);
+    display: inline-block;
+    padding: 8px 16px;
+    transform: skewX(-22deg);
+    font-weight: bolder;
+}
+.packedge-card p:last-child{
+    font-size: 24px;
+    font-weight: bolder;
+    padding-top: 20px;
+    color: var(--txt-black);
+}
+.our-packedge-card-wrapper div:nth-child(1){
+    border-top: 3px solid #0C8241;
+}
+.our-packedge-card-wrapper div:nth-child(2){
+    border-top: 3px solid blue;
+}
+.our-packedge-card-wrapper div:nth-child(3){
+     border-top: 3px solid red;
+ }
+.our-packedge-card-wrapper div:nth-child(4){
+    border-top: 3px solid purple;
+}
+.our-packedge-card-wrapper div:nth-child(5){
+    border-top: 3px solid darkcyan;
+}
+.our-packedge-card-wrapper div:nth-child(6){
+    border-top: 3px solid tomato;
 }
