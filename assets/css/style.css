@@ -142,11 +142,12 @@ nav{
     background-color: #eee;
 }
 .address-area{
-    width: 40%;
+    width: 50%;
     font-family: var(--bn-font);
+    padding: 20px;
 }
 .address-card{
-
+    padding: 10px 0;
 }
 .address-card-header{
     font-weight: bold;
@@ -163,6 +164,46 @@ nav{
     padding-left: 30px;
     color: var(--txt-black);
 }
+
 .contact-form{
-    width: 60%;
+    width: 50%;
+    padding: 20px;
+    color: var(--txt-black);
+}
+.contact-form-card{
+    font-family: var(--eng-font);
+    padding: 4px 0;
+}
+.contact-form-card label{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.contact-form-card label,
+.contact-form-card input{
+    display: block;
+}
+.contact-form-card label::after{
+    content: '*';
+    color: red;
+    padding-left: 6px;
+}
+.contact-form-card input,
+.contact-form-card textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 6px;
+    font-family: var(--eng-font);
+    outline: none;
+}
+.contact-form-card textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+}
+.google-map-area{
+    margin-top: 20px;
+}
+.google-map-area iframe{
+    width: 100%;
+    height: 300px;
 }
