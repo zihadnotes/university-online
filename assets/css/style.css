@@ -131,12 +131,37 @@ nav{
 
 
 /* Contact Page Design */
+.section-heading{
+    font-family: var(--bn-font);
+    font-size: 24px;
+    color: var(--txt-black);
+}
+
 .contact-area{
     padding: 10px;
     background-color: #eee;
 }
 .address-area{
     width: 40%;
+    font-family: var(--bn-font);
+}
+.address-card{
+
+}
+.address-card-header{
+    font-weight: bold;
+    font-size: 20px;
+}
+.address-card-header i{
+    padding-right: 6px;
+    color: #0C8241;
+}
+.address-card-header span{
+    color: var(--txt-black);
+}
+.address-card-content{
+    padding-left: 30px;
+    color: var(--txt-black);
 }
 .contact-form{
     width: 60%;
