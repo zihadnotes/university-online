@@ -178,6 +178,7 @@ nav{
 .contact-form-card label{
     padding-bottom: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
 .contact-form-card label,
 .contact-form-card input{
@@ -222,7 +223,6 @@ nav{
 .login-section-wrapper{
     width: 100%;
     padding: 20px;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -259,6 +259,7 @@ nav{
 }
 .login-input-card label{
     font-weight: bold;
+    cursor: pointer;
 }
 .login-input-card input{
     width: 100%;
